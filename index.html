@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Campuses (Campus Management Software)</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;        
+        }
+        body {
+            animation: fadeInAnim ease 1s;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnim {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        header{
+            background: linear-gradient(to right, #480048, #c04848);
+            color: white;
+            width: 100%;
+            height: 80px;
+            position: fixed;
+            
+        }
+
+        .title{
+            margin-top: 1.5%;
+            margin-left: 1.5%;
+            display: inline-block;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 300px;
+            font-size: 22px;
+        }
+        .Loginbtn{
+            width: 5.5%;
+            height: 50%;
+            border-radius: 5px;
+            border-width: 0;
+            color: white;
+            background-color: #868e96;
+            white-space: nowrap;
+            float: right;
+            margin-top: 1.5%;
+            margin-right: 2%;
+            font-weight: 400px;
+            font-size: 16px;
+            line-height: 1.25;
+            transition: all .15s ease-in-out;
+        }
+        
+        .Loginbtn a{
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            cursor: default;
+        }
+
+        .Loginbtn:hover{
+            background-color:#5c6166;
+            color: white;
+        }
+        
+        
+        #section img{
+            height: 650px;
+            width: 100%;
+            
+        }
+
+        
+        section{
+            width: 100%;
+            height: 400px;
+            
+        }
+
+        /* section div{
+            border: 1px solid black;
+        }
+ */
+
+        .col{
+            display: inline-block;
+            margin-top: 50px;
+            width: 33.33%;
+        }
+        .col1{
+            position: absolute;
+            left: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .col2{
+            position: absolute;
+            left:700px ;
+            width: 15%;
+            height: 40%;
+        }
+        .col3{
+            position: absolute;
+            text-align: justify;
+            margin-right: 190px;
+            right: 0;
+            width: 22%;
+            line-height: 1.5;
+        }
+
+        .info{
+            width: 80%;
+            text-align: justify;
+            line-height: 1.2;
+            margin-top: 20px;
+        }
+        .col .link1{
+            position: absolute;
+            display: inline-block;
+            letter-spacing: 2px;
+            left: 50px;
+            margin-top: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .col .link1 a{
+            padding-left: 5px;
+        }
+
+        .col h3{
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 200;
+            margin-top: 60px;
+            color: #131313;
+        }
+
+        .col .link2{
+            list-style:none;
+            text-align: justify;
+            margin-top: 20px;
+            line-height: 1.5;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+
+        }
+
+        
+    </style>
+
+</head>
+
+
+<body>
+    <header>
+        <h1 class="title">ALIGARH INSTITUTE OF TECHNOLOGY</h1>
+        <button class="Loginbtn"><a href="htmlFiles/signIn.html">Login</a></button>
+    </header>
+
+    <div id="section">
+        <img src="images/h_img_1.jpg">
+    </div>
+
+
+    <center>
+        <section>
+            <div class="col col1">
+                <img src="images/EduPic.png" alt="EduPic"  width="200px" height="100px";>
+                <p class="info"> Campuses is a Finland based Software Company, providing Best Academic And Learning Management Solution for Schools, Colleges, Institutes and Universites.We integrated communication tools encourage interactions between faculty, students, built-in parents, student Portals and Mobile App keep families informed and involved</p>
+                <p class="link1">Follow Us  
+                <a href="www.facebook.com" ><img src="images/fb_logo.png" alt="Facebook Logo" width="25px" height="5%"></a>
+                <a href="www.twitter.com"><img src="images/twitter_logo.png" alt="Twitter Logo" width="25px" height="5%"></a>
+                <a href="www.linkdin.com"><img src="images/linkedin_logo.png" alt="LinkedIn Logo" width="25px" height="5%"></a>
+                </p>
+                
+            </div>
+            <div class="col col2">
+                <h3>Useful Links</h3>
+                <ul class="link2">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">FAQ's</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+
+            </div>
+            <div class="col col3">
+                <p align="center"> <img src="images/logo.png" alt="AIT_Logo" width="110px" height="110px"></p>
+                <p style="font-family: Arial, Helvetica, sans-serif;">The Aligarh Institute of Technology is a private polytechnic institute located in Karachi, Sindh, Pakistan. It was established in 1989 by Aligarh Muslim University Old Boys' Association of Pakistan</p>
+                <br>
+                <a href="tel:(021) 34973414"> 📞 (021) 34973414 </a>
+                <br>
+                <a href="#"> 🌐 http://aligarh.edu.pk</a>
+                <br>
+                <a href="mailto: info@aligarh.edu.pk">✉️ info@aligarh.edu.pk</a>
+            </div>
+        </section>
+        <footer><b align="center" style="font-family: Arial, Helvetica, sans-serif;font-size: 14px;"> Powered by Smart Campuses  © 2016 - 2023</b></footer>
+    </center>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Campuses | Portal</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        h1{
+            margin-top: 60px;
+        }
+
+        form{
+            display: block;
+            background: rgba(0, 0, 0, 0.2);
+            color: white;
+            border-radius: 5px;
+            width: 450px;
+            text-align: center;
+            box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 100%);
+            margin-top: 100px;
+            margin-bottom: 50px;
+            padding: 40px 30px;
+            /* height: 300px; */
+        }
+
+        form .heading{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 34px;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        form input{
+            width: 90%;
+            /* height: 15%; */
+            border-radius: 3px;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+            font-size: 15px;
+            font-weight: 100;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            border: 1px solid #fff;
+            background: transparent;
+            background: rgba(0, 0, 0, 0.2);
+            outline: none;
+            padding: 15px;
+        }
+        
+        ::placeholder{
+            color: #fff;
+        }
+
+        form button{
+            width: 95%;
+            /* height: 10%; */
+            background-color: white;
+            font-size: 14px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            padding: 14px 30px;
+            color: #333;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+
+        form button:hover{
+            background-color: #333;
+            color: white;
+            transition:1.5 linear;
+        }
+        
+        #checkbox1{
+            display: inline-block;
+            text-align: left;
+            margin-left: 10px;
+            margin-right: 5px;
+            width: 15px;
+            
+        }
+        
+        #Remember{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            display: inline-block;
+            text-align: left;
+            margin-bottom: 20px;
+            cursor: default;
+        }
+        form a{
+            text-decoration: none;
+            color: white;
+            display: block;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-bottom: 1px;
+        }
+        form a:hover{
+            text-decoration: underline;
+        }
+        #CAN{
+            display: block;
+            margin-bottom:30px;
+        }
+        footer b{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: white; 
+            letter-spacing: 1px; 
+            font-weight: 200;
+        }
+
+    </style>
+</head>
+<body background="../images/portal_bg.jpg">
+    <center>
+
+        <h1><img src="../images/logo.png" alt="ait_logo" width="150px"></h1>
+
+        <form method="post" action="../jsp/login.jsp">
+            <label class="heading">STUDENT PORTAL</label>
+            <input type="text" name="userName" placeholder="User Name">
+            <input type="password" name="userPassword" placeholder="Password">
+            <br>
+            <div>
+                <input type="checkbox" id="checkbox1"><label id="Remember">Remember me</label>
+            </div>
+            <button type="submit"> LOGIN </button>
+            <br>
+            <a href="signUp.html"><label id="CAN"> Create an account</a></label>
+            <br>
+            <b><a href="#">Forgot Password</a></b>
+            <br>
+            <a href="../index.html">Back</a>
+            </form>
+
+        <footer><b align="center" >©2016 - 2023 Student Portal. All rights reserved | Design by Saboor Hussain</b></footer>
+    </center>
+
+    
+</body>
+</html>

@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Smart Campuses | Signup Portal</title>
+	<style>
+		*{
+            margin: 0;
+            padding: 0;
+        }
+
+        h1{
+            margin-top: 40px;
+        }
+
+        form{
+            width: 30%;
+            display: block;
+            background: rgba(0, 0, 0, 0.2);
+            color: white;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 100%);
+            margin-top: 30px;
+            margin-bottom: 50px;
+            padding: 40px 30px;
+            /* height: 300px; */
+        }
+
+        form .heading{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        form input{
+            width: 90%;
+            /* height: 15%; */
+            border-radius: 3px;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+            font-size: 15px;
+            font-weight: 100;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            border: 1px solid #fff;
+            background: transparent;
+            background: rgba(0, 0, 0, 0.2);
+            outline: none;
+            padding: 15px;
+        }
+        
+        ::placeholder{
+            color: #fff;
+        }
+		
+		form div label{
+			display: inline-block;
+		}
+
+		form div p{
+			display: inline-block;
+			font-size: 15px;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		form div label input{
+			width: 20px;
+			display: inline-block;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+
+		select{
+			width: 98%;
+			text-align: center;
+			color: white;
+            background: rgba(0, 0, 0, 0.2);
+			padding: 15px;
+			font-size: 15px;
+			border: 0;
+			outline-color: white;
+			outline: none;
+			margin-bottom: 10px;
+		}
+
+
+        form button{
+            width: 95%;
+            /* height: 10%; */
+            background-color: white;
+            font-size: 14px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            padding: 14px 30px;
+            color: #333;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+
+        form button:hover{
+            background-color: #333;
+            color: white;
+            transition:1.5 linear;
+        }
+
+		.resetBtn{
+			width: 60%;
+			margin-top: 1px;
+			background-color: red;
+			color: white;
+		}
+
+		form a{
+            text-decoration: none;
+            color: white;
+            display: block;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-bottom: 1px;
+        }
+        form a:hover{
+            text-decoration: underline;
+        }
+
+		
+
+		footer b{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: white; 
+            letter-spacing: 1px; 
+            font-weight: 200;
+        }
+	</style>
+</head>
+
+<body background="../images/portal_bg.jpg">
+	<center>
+		<h1><img src="../images/logo.png" alt="ait_logo" width="150px"></h1>
+		<form action="../jsp/Database.jsp" method="post">
+			<label class="heading">PORTAL SIGNUP</label>
+			<input type="text" name="userID"  placeholder="GR. NO"><br>
+			<input type="text" name="userName" placeholder="Enter User Name"><br>
+			<input type="password" name="userPassowrd" placeholder="Enter Your Password"><br>
+			<input type="password" name="userPassowrd" placeholder="Confirm Password"><br>
+			<div>
+				<p>Enter Gender: </p>
+				<label>	<input type="radio" name="userGender" value="male"> Male </label>
+				
+				<label> <input type="radio" name="userGender" value="female"> Female </label>
+			</div>
+			</div>
+			<input type="date" name="userDOB"><br>
+			<input type="file" name="userPic">
+			<br>
+			<select name="userType">
+				<option value="student">Student</option>
+				<option value="employee">Employee</option>
+				<option value="admin">Admin</option>
+			</select>
+			<br>
+			<button type="submit"> GET STARTED</button>
+			<button type="reset" class="resetBtn"> RESET</button>
+			<br>
+			<a href="signIn.html">I already have account? Login Now</a>
+		</form>
+
+		<footer><b align="center" >©2016 - 2023 Student Portal. All rights reserved | Design by Saboor Hussain</b></footer>
+	</center>
+</body>
+</html>
