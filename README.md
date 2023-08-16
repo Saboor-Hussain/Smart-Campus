@@ -66,7 +66,7 @@ To explore and run the SmartCampus project locally, follow these steps:
 
 3. Open the project files using your preferred code editor.
 
-4. Launch the project in a web browser to interact with its features.
+4. Launch the project with XAMMP Control Panel.
 
 
 ## License
