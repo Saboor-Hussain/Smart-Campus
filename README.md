@@ -46,7 +46,7 @@ Below are screenshots of the different pages within the SmartCampus website:
 ![Signup Page](screenshots/Signup.png)
 
 ### User Dashboard
-![User Dashboard](screenshots/dashboard.png)
+![User Dashboard](screenshots/Dashboard.png)
 
 ## Getting Started
 
