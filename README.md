@@ -1,6 +1,5 @@
 # SmartCampus
 
-
 SmartCampus is an educational website designed to enhance the learning experience for students. The website offers a range of features to streamline access to educational resources and facilitate interaction within the campus community.
 
 ## Table of Contents
@@ -38,16 +37,16 @@ The SmartCampus project incorporates a combination of technologies to deliver a 
 Below are screenshots of the different pages within the SmartCampus website:
 
 ### Homepage
-![Homepage](screenshots/homepage.png)
+![Homepage](screenshots/home.png)
 
 ### Login Page
-![Login Page](screenshots/login-page.png)
+![Login Page](screenshots/Login.png)
 
 ### Signup Page
-![Signup Page](screenshots/signup-page.png)
+![Signup Page](screenshots/Signup.png)
 
 ### User Dashboard
-![User Dashboard](screenshots/user-dashboard.png)
+![User Dashboard](screenshots/dashboard.png)
 
 ## Getting Started
 
@@ -56,7 +55,7 @@ To explore and run the SmartCampus project locally, follow these steps:
 1. Clone this repository to your local machine using:
 
    ```bash
-   git clone https://github.com/your-username/SmartCampus.git
+   git clone https://github.com/Saboor-Hussain/SmartCampus.git
    ```
 
 2. Navigate to the project directory:
@@ -69,14 +68,7 @@ To explore and run the SmartCampus project locally, follow these steps:
 
 4. Launch the project in a web browser to interact with its features.
 
-## Contributions
-
-Contributions to SmartCampus are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request. Please refer to our [Contribution Guidelines](CONTRIBUTING.md) for more details.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). You are free to modify and distribute the code, subject to the terms of the license.
-
----
-
-Explore the SmartCampus website, built with a blend of HTML, CSS, JSP, and MySQL technologies. Empower your educational journey with a user-friendly interface and convenient access to resources. Dive into learning and collaboration at [SmartCampus](https://github.com/your-username/SmartCampus).
+This project is licensed under the MIT License. You are free to modify and distribute the code, subject to the terms of the license.
